@@ -31,7 +31,7 @@ body{
 }
 
 .btn{
-    margin: 50px;
+    margin: 20px;
     text-transform: uppercase;
     user-select: none;
     border: 1px solid gray;
