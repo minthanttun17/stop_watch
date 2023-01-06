@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stopwatch{
+    font-size: 50px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn{
+    margin: 50px;
+    text-transform: uppercase;
+    user-select: none;
+    border: 1px solid gray;
+    padding: 10px;
+    transition: 1s all ease;
+    border-radius: 50px;
+    font-weight: bold;
+
+    box-shadow: 11px 12px 5px -5px rgba(46,43,43,0.48) inset;
+    -webkit-box-shadow: 11px 12px 5px -5px rgba(46,43,43,0.48) inset;
+    -moz-box-shadow: 11px 12px 5px -5px rgba(46,43,43,0.48) inset;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.startBtn, .continueBtn{
+    color: rgb(86, 86, 211);
+}
+
+.pauseBtn, .restartBtn{
+    color: red;
+}
+
+.removed{
+    display: none;
+}
